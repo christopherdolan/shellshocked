@@ -1,0 +1,27 @@
+{
+  "name": "shellshocked",
+  "version": "1.0.0",
+  "description": "This is an example of an attack on a shellshock-vulnerable web server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chris Dolan <aelien27@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/climbupthewalls/shellshocked.git"
+  },
+  "keywords": [
+    "shellshock",
+    "bash",
+    "vulnerability",
+    "shell",
+    "exec"
+  ],
+  "bugs": {
+    "url": "https://github.com/climbupthewalls/shellshocked/issues"
+  },
+  "homepage": "https://github.com/climbupthewalls/shellshocked"
+}
