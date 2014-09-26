@@ -5,8 +5,8 @@ Maybe you've heard of [Shellshock](http://en.wikipedia.org/wiki/Shellshock_(soft
 
 
 ## This project includes:
-1. A little server that tries to write `someval` directly to an environment variable before using it in an `echo` statement to write a log.
-2. An attack script for exploiting this vulnerability.
+1. `server.js` A little server that tries to write URL querystring key `someval` directly to an environment variable before using it in an `echo` statement to write a log.
+2. `attacker.js` An attack script for exploiting this vulnerability.
 
 ## To run:
 
